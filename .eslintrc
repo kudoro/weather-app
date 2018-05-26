@@ -1,0 +1,32 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "no-use-before-define": 0,
+    "no-mixed-operators": 0,
+    "max-len": [
+      2,
+      120,
+      2,
+      {
+        "ignoreUrls": true,
+        "ignoreComments": false
+      }
+    ],
+    "global-require": 0,
+
+    "react/jsx-filename-extension": 0,
+
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["**/setupTests.js", "**/*.test.js", "**/*.stories.js", "**/*.karmatest.js"]
+      }
+    ]
+  }
+}
