@@ -1,5 +1,13 @@
 {
   "expo": {
-    "sdkVersion": "27.0.0"
+    "name": "Weatheria",
+    "icon": "./src/assets/images/logo.png",
+    "description": "Feel free to check the weather outside",
+    "sdkVersion": "27.0.0",
+    "android": {
+      "package": "com.prodioslabs.weatheria",
+      "versionCode": 1,
+      "icon": "./src/assets/images/logo.png"
+    }
   }
 }
