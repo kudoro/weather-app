@@ -11,7 +11,7 @@
     "no-mixed-operators": 0,
     "max-len": [
       2,
-      120,
+      150,
       2,
       {
         "ignoreUrls": true,
